@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.apk2try.punetourguide.TourGuide">
+
+    <TextView
+        android:id="@+id/Restaurants"
+        style="@style/CategoryStyle"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/category_restaurants"
+        android:background="@color/category_restaurant"
+        />
+    <TextView
+        android:id="@+id/HistoricPlaces"
+        style="@style/CategoryStyle"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/category_historic_places"
+        android:background="@color/category_historic_places"
+        />
+    <TextView
+        android:id="@+id/Malls"
+        style="@style/CategoryStyle"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="@string/category_malls"
+        android:background="@color/category_malls"
+        />
+
+</LinearLayout>

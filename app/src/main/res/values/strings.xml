@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pune Tour Guide</string>
+
+    <!-- Category name for the Restaurants from Pune [CHAR LIMIT=20] -->
+    <string name="category_restaurants">Restaurants</string>
+
+    <!-- Category name for the Historic Places from Pune [CHAR LIMIT=20] -->
+    <string name="category_historic_places">Historic Places</string>
+
+    <!-- Category name for the Malls of Pune [CHAR LIMIT=20] -->
+    <string name="category_malls">Malls</string>
+
+
+</resources>
