@@ -12,17 +12,21 @@ public class ItemList {
     /**Location of Place*/
     private String mlocationPlace;
 
+    /**Name of Picture to be displayed*/
+    private int mPictureResourceId;
+
     /**
      * Create a new List of Items object.
      *
      * @param placeName Name of the Place
      * @param locationPlace is the location or Address of Place
-     *
+     * @param PictureResourceId is the picture of location
      */
 
-    public ItemList(String placeName, String locationPlace) {
+    public ItemList(String placeName, String locationPlace,int PictureResourceId) {
                 mlocationPlace = locationPlace;
                 mplaceName = placeName;
+                mPictureResourceId = PictureResourceId;
     }
 
     /**
@@ -31,6 +35,13 @@ public class ItemList {
     public String getplaceName() {
         return mplaceName;
     }
+
+
+    /**
+     *    Return the audio resource ID of the word.
+     */
+
+    public int getPictureResourceId() { return mPictureResourceId; }
 
     /**
      * Get the Address of the Place.
@@ -44,6 +55,7 @@ public class ItemList {
         return "ItemList{" +
                 "mplaceName='" + mplaceName + '\'' +
                 ", mlocationPlace='" + mlocationPlace + '\'' +
+                ", mPictureResourceId='" + mPictureResourceId + '\'' +
                 '}';
     }
 }

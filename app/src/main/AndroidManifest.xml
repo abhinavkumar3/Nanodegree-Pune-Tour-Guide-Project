@@ -19,19 +19,19 @@
         <activity
             android:name=".Restaurant"
             android:label="@string/category_restaurants"
-            android:parentActivityName=".Restaurant">
-        </activity>
+            android:parentActivityName=".Restaurant" />
         <activity
             android:name=".Malls"
             android:label="@string/category_malls"
-            android:parentActivityName=".Malls">
-        </activity>
+            android:parentActivityName=".Malls" />
         <activity
             android:name=".HistoricPlaces"
             android:label="@string/category_historic_places"
-            android:parentActivityName=".HistoricPlaces">
-
-        </activity>
+            android:parentActivityName=".HistoricPlaces" />
+        <activity
+            android:name=".HillStation"
+            android:label="@string/category_HillStation"
+            android:parentActivityName=".HillStation" />
     </application>
 
 </manifest>

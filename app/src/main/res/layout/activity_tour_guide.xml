@@ -14,7 +14,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/category_restaurants"
-        android:background="@color/category_restaurant"
+        android:background="@drawable/misal"
         />
     <TextView
         android:id="@+id/HistoricPlaces"
@@ -22,7 +22,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="@string/category_historic_places"
-        android:background="@color/category_historic_places"
+        android:background="@drawable/pune"
         />
     <TextView
         android:id="@+id/Malls"
@@ -30,7 +30,15 @@
         android:gravity="center"
         android:layout_weight="1"
         android:text="@string/category_malls"
-        android:background="@color/category_malls"
+        android:background="@drawable/mall"
+        />
+    <TextView
+        android:id="@+id/HillStation"
+        style="@style/CategoryStyle"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="@string/category_HillStation"
+        android:background="@drawable/lonvala"
         />
 
 </LinearLayout>

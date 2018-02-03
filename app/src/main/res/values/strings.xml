@@ -10,5 +10,47 @@
     <!-- Category name for the Malls of Pune [CHAR LIMIT=20] -->
     <string name="category_malls">Malls</string>
 
+    <!-- Category name for the Hill Stations near Pune [CHAR LIMIT=20] -->
+    <string name="category_HillStation">Hill Stations</string>
+
+    <!--Strings related to Restaurant-->
+    <string name="Restaturant1">Vaishali</string>
+    <string name="Restaturant2">Falahar</string>
+    <string name="Restaturant3">German Bakery</string>
+    <string name="Restaturant4">Waffles</string>
+    <string name="Restaturant1Add">FC Road</string>
+    <string name="Restaturant2Add">FC Road</string>
+    <string name="Restaturant3Add">Koregaon Park</string>
+    <string name="Restaturant4Add">Viman Nagar</string>
+
+    <!--Strings related to Historic Palces-->
+    <string name="HistoricPlace1">Shaniwar Wada Fort</string>
+    <string name="HistoricPlace2">Katraj Lake</string>
+    <string name="HistoricPlace3">Sinhagad</string>
+    <string name="HistoricPlace4">Aga Khan Palace</string>
+    <string name="HistoricPlace1Add">Pune Corporation</string>
+    <string name="HistoricPlace2Add">Katraj Vasahat, Katraj</string>
+    <string name="HistoricPlace3Add">Sinhagad Ghat Road</string>
+    <string name="HistoricPlace4Add">Pune Nagar Road</string>
+
+    <!--Strings related to Malls-->
+    <string name="Malls1">Amanora Mall Town Centre</string>
+    <string name="Malls2">Seasons Mall</string>
+    <string name="Malls3">Kumar Pacific Mall</string>
+    <string name="Malls4">Phoenix Marketcity</string>
+    <string name="Malls1Add">Hadapsar- Kharadi Bypass</string>
+    <string name="Malls2Add">Magarpatta Police Station Road</string>
+    <string name="Malls3Add">Shankar Sheth Road</string>
+    <string name="Malls4Add">Pune Nagar Road</string>
+
+    <!--Strings related to Hill Stations-->
+    <string name="HillStations1">Lonavala</string>
+    <string name="HillStations2">Khandala</string>
+    <string name="HillStations3">Panchgani</string>
+    <string name="HillStations4">Malshej Ghat</string>
+    <string name="HillStations1Add">Distance - 60Km</string>
+    <string name="HillStations2Add">Distance - 68Km</string>
+    <string name="HillStations3Add">Distance - 100Km</string>
+    <string name="HillStations4Add">Distance - 119Km</string>
 
 </resources>

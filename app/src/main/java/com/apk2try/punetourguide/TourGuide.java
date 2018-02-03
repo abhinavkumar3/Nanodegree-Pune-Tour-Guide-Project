@@ -18,10 +18,10 @@ public class TourGuide extends AppCompatActivity {
 
         // Set a click listener on that View
         restaurant.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers category is clicked on.
+            // The code in this method will be executed when the Restaurants category is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NumbersActivity}
+                // Create a new intent to open the {@link Restaurants Activity}
                 Intent restaurantIntent = new Intent(TourGuide.this, Restaurant.class);
 
                 // Start the new activity
@@ -34,10 +34,10 @@ public class TourGuide extends AppCompatActivity {
 
         // Set a click listener on that View
         mall.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers category is clicked on.
+            // The code in this method will be executed when the Malls category is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NumbersActivity}
+                // Create a new intent to open the {@link Malls Activity}
                 Intent mallIntent = new Intent(TourGuide.this, Malls.class);
 
                 // Start the new activity
@@ -50,14 +50,30 @@ public class TourGuide extends AppCompatActivity {
 
         // Set a click listener on that View
         historicPlaces.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers category is clicked on.
+            // The code in this method will be executed when the Historic Places category is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NumbersActivity}
+                // Create a new intent to open the {@link Historic Places Activity}
                 Intent historicPlacesIntent = new Intent(TourGuide.this, HistoricPlaces.class);
 
                 // Start the new activity
                 startActivity(historicPlacesIntent);
+            }
+        });
+
+        // Find the View that shows the HillStations category
+        TextView hillStations = (TextView) findViewById(R.id.HillStation);
+
+        // Set a click listener on that View
+        hillStations.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the HillStation category is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link HillStation Activity}
+                Intent hillStationIntent = new Intent(TourGuide.this, HillStation.class);
+
+                // Start the new activity
+                startActivity(hillStationIntent);
             }
         });
     }

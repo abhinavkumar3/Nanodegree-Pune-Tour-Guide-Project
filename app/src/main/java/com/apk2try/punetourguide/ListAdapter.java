@@ -47,6 +47,10 @@ public class ListAdapter extends ArrayAdapter<ItemList> {
         TextView locationTextView = (TextView) listItemView.findViewById(R.id.location_text_view);
         locationTextView.setText(currentItem.getlocationPlace());
 
+        // Set the Picture
+        ImageView locationImage = (ImageView) listItemView.findViewById(R.id.image);
+        locationImage.setImageResource(currentItem.getPictureResourceId());
+
         //Setting background color
         View textContainer = listItemView.findViewById(R.id.text_container);
         int color = ContextCompat.getColor(getContext(), mColorResourceId);

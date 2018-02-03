@@ -15,10 +15,10 @@ public class Malls extends AppCompatActivity {
 
         // Create a list of words
         final ArrayList<ItemList> listItem = new ArrayList<ItemList>();
-        listItem.add(new ItemList("Amanora Mall Town Centre", "Hadapsar- Kharadi Bypass"));
-        listItem.add(new ItemList("Seasons Mall", "Magarpatta Police Station Road"));
-        listItem.add(new ItemList("Kumar Pacific Mall", "Shankar Sheth Road"));
-        listItem.add(new ItemList("Phoenix Marketcity", "Pune Nagar Road"));
+        listItem.add(new ItemList(getString(R.string.Malls1),getString(R.string.Malls1Add),R.drawable.amanora));
+        listItem.add(new ItemList(getString(R.string.Malls2),getString(R.string.Malls2Add),R.drawable.seasons));
+        listItem.add(new ItemList(getString(R.string.Malls3),getString(R.string.Malls3Add),R.drawable.kumar));
+        listItem.add(new ItemList(getString(R.string.Malls4),getString(R.string.Malls4Add),R.drawable.mall));
 
         ListAdapter adapter = new ListAdapter(this, listItem,R.color.category_malls);
         ListView listView = (ListView) findViewById(R.id.list);
